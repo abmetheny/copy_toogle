@@ -1,4 +1,4 @@
-const Tokenizer = require("css-selector-tokenizer")
+const Tokenizer = require("../../../css-selector-tokenizer")
 
 function itMatchesOne(arr, term) {
   return arr.some((i) => term.search(i) >= 0)
