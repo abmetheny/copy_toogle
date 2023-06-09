@@ -1,6 +1,7 @@
-const daisy = require('./node_modules/daisyui/src/index.js')
+// import daisy from './node_modules/daisyui/src/index.js';
 
 module.exports = {
-  content: ['./src/**/*.{js,ts,jsx,tsx}'],
-  plugins: [require(daisy)],
-};
+    content: ["./src/**/*.{js,jsx,ts,tsx}"],
+    plugins: [require("daisyui")]
+  };
+  

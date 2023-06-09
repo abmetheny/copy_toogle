@@ -6,7 +6,6 @@
   "dependencies": {
     "@apollo/client": "^3.5.8",
     "@styled-jsx/plugin-sass": "^4.0.2",
-    "@tailwindcss/forms": "^0.5.3",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -21,6 +20,7 @@
     "styled-jsx": "^5.1.2",
     "styled-jsx-plugin-postcss": "^4.0.1",
     "tailwindcss": "^3.3.2",
+    "@tailwindcss/forms": "^0.5.3",
     "daisyui": "^3.0.20"
   },
   "scripts": {
@@ -53,7 +53,6 @@
     "autoprefixer": "^10.4.2",
     "babel-loader": "^8.2.3",
     "css-loader": "^6.7.0",
-    "daisyui": "^3.0.20",
     "html-webpack-plugin": "^5.5.0",
     "postcss": "^8.4.7",
     "postcss-loader": "^6.2.1",
@@ -61,6 +60,7 @@
     "serve": "^12.0.0",
     "style-loader": "^3.3.1",
     "tailwindcss": "^3.3.2",
+    "daisyui": "^3.0.20",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^4.7.4"
